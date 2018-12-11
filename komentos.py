@@ -60,7 +60,7 @@ def spam():
                     facebook.publish(cat = "comments", id = indid, message = mess)
                     facebook.publish(cat = "likes", id = indid)
                     count += 1
-                    print(warna.hijau+"Berhasil " + warna.oren+"["+str(count)+"]")
+                    print warna.hijau+"Berhasil"
             else:
                 print warna.merah+"Error"
         elif rt == "t":
@@ -76,7 +76,7 @@ def spam():
                    # count += 1
                 #for lol in range(count)::
                     try:
-                        print warna.hijau+"Berhasil " + warna.oren+"["+str(count)+"]" 
+                        print warna.hijau+"Berhasil" 
                     except KeyError:
                         print warna.merah+"Error"
         else:
